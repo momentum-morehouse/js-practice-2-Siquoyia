@@ -2,26 +2,48 @@
 // member of the array, and returns a new array with that member removed.
 // For example, `remove(['Cadence', 'Ordel', 'Marion'], 'Marion')` results
 // in `['Cadence', 'Ordel']`.
-//
-// If the potential member is not in the array, return the array unchanged.
-// If the potential member is in the array, remove all instances of it from the array.
+function remove (name, potential) {
+    if(name.indexOf(potential) != -1 );{
+        let index=name.indexOf(potential);
+        name.splice(index,1);
+        return name;
+    }else{
+        return name;
+     
+    
+}
 
+
+// If the potential member is not in the array, return the array unchanged.
+// If the potential member is in the array, remove all instances of it from the array
 // 2. Revisit your "remove" function. Make sure that it does not change the original
 // array but instead returns a new array.
+//if(arrayName[index]==""){
 
+}
 // 3. Create a function called "sum" that takes an array of numbers and
 // returns the sum of those numbers.
+<script type="array/numbers">
+    function amountTotal(numbers) {
+       returns numbers;
+    }
+</script>
 
 // 4. Create a function called "average" that takes an array of numbers
 // and returns the average of those numbers.
+function average (numbers)
+    return numbers 
 
 // 5. Create a function called "minimum" that takes an array of numbers and
 // returns the smallest number in that array.
+function minimum ([numbers])
+    return smallest numbers; 
 
 // 6. There are many techniques to sort arrays in programming. Your programming
 // language will likely include the ability to do this. We are going to
 // implement sorting ourselves, however.
-//
+// 
+
 // A "selection sort" is one of the most simple sorting algorithms. To implement it,
 // you start with an unsorted array of numbers. You search the array and find the
 // smallest number in the array. You then insert that into a new array as the first
@@ -30,10 +52,12 @@
 //
 // Create a function called selectionSort that takes an array of numbers and returns
 // a sorted array using the above technique.
-//
+function selectionSort (numberSet){
+    let smallestNum = numberSet[0];   
+//remove
 // Note 1: You do not actually want to delete things from the original array. You
 // should copy it first. To copy an array, use the following code:
-//
+//u
 // var arrayCopy = array.slice(0);
 //
 // Think about why this works.
@@ -44,6 +68,8 @@
 
 // 7. Create a function called `textList` that takes an array and joins its elements
 // into a string separated by commas.
-//
+//function textList 
 // For example, `textList(['Cadence', 'Ordel', 'Marion'])` results in the string
 // `"Cadence,Ordel,Marion"`.
+
+function textlist ([Cadence, Ordel, Marion]) "Cadence,Ordel,Marion"
